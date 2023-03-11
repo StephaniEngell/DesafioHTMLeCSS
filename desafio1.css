@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,8 +37,8 @@ header {
     color: #FFFFFF;
 }
 
-.img-logo {
-    margin: 163px 0 0 123px;
+img {
+    margin: 103px 0 0 123px;
     display: inline-block;
 }
 
@@ -48,7 +48,7 @@ header {
     width: 493px;
 }
 
-.h1-center {
+h1{
     font-weight: 700;
     font-size: 62px;
     line-height: 82px;
@@ -56,7 +56,7 @@ header {
     color: #161A49;
 }
 
-.paragrafo-unico {
+p {
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -64,6 +64,7 @@ header {
     color: #4B505A;
     margin-top: 47px;
     margin-bottom: 55px;
+
 
 }
 
@@ -76,4 +77,25 @@ header {
     cursor: pointer;
     background: transparent;
     border: none;
+}
+
+@media (max-width: 900px) {
+    .links-header {
+        display: none;
+    }
+
+    .button-header {
+        display: inline;
+        margin-left: 667px;
+        margin-top: 0;
+    
+    }
+
+    img {
+        margin: 30px;       
+    }
+
+    div {
+        display: revert;
+    }
 }
